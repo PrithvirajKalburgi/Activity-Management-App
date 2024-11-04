@@ -5,17 +5,9 @@ import "../styling/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <ul>
-        <li>
-          <Link to="/HomeView">Homepage</Link>
-        </li>
-        <li>
-          <Link to="/TasksView"> Tasks</Link>
-        </li>
-        <li>
-          <Link to="/AnalyticsView"> Tasks Analysis</Link>
-        </li>
-      </ul>
+      <Link to="/HomeView">Home</Link>
+      <Link to="/TasksView">Tasks</Link>
+      <Link to="/AnalyticsView">Tasks Analysis</Link>
     </nav>
   );
 }
